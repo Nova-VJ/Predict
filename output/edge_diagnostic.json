@@ -1,0 +1,47 @@
+{
+  "status": "descriptive_only_non_executable",
+  "model": "elo",
+  "bookmaker": "fanduel",
+  "quote_kind": "archived_opening_without_observation_time",
+  "rule": "one side per game: take greater estimated EV only if greater than zero; flat one-unit stake",
+  "available_games_by_season": {
+    "2024": 2381,
+    "2025": 1687
+  },
+  "by_season": {
+    "2024": {
+      "selections": 1741,
+      "gross_return_per_unit": -0.0363831381280616,
+      "model_mean_expected_return_per_unit": 0.08877253172666606,
+      "day_resampled_95pct_interval": [
+        -0.08052897699592254,
+        0.010871933243013897
+      ]
+    },
+    "2025": {
+      "selections": 1266,
+      "gross_return_per_unit": 0.024380776288895067,
+      "model_mean_expected_return_per_unit": 0.09840187562646341,
+      "day_resampled_95pct_interval": [
+        -0.03380365635541181,
+        0.08272171264888813
+      ]
+    }
+  },
+  "combined": {
+    "selections": 3007,
+    "gross_return_per_unit": -0.010800459161694071,
+    "model_mean_expected_return_per_unit": 0.09282665523087073,
+    "day_resampled_95pct_interval": [
+      -0.04725070933723619,
+      0.024879482655350282
+    ]
+  },
+  "limitations": [
+    "Opening timestamps and executable availability unknown",
+    "FanDuel may not be available in the relevant jurisdiction",
+    "2025 archive only through August and already examined",
+    "No stake acceptance, fees, line movement or CLV verified",
+    "Day bootstrap describes sampling variation, not data-quality bias"
+  ]
+}

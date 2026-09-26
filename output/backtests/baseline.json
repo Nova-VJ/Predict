@@ -1,0 +1,173 @@
+{
+ "name": "baseline",
+ "features": [
+  "elo_logit",
+  "diff_sp_fip",
+  "diff_sp_k",
+  "diff_sp_bb",
+  "diff_sp_outs",
+  "diff_bp_fip",
+  "diff_bp_pitches_3d",
+  "diff_lineup_woba"
+ ],
+ "stack_extra": [],
+ "refit_every_days": 1,
+ "seconds": 48.7,
+ "seasons": {
+  "2015": {
+   "n": 2429,
+   "ll_elo": 0.686898,
+   "ll_fund": null
+  },
+  "2016": {
+   "n": 2427,
+   "ll_elo": 0.688677,
+   "ll_fund": 0.679493
+  },
+  "2017": {
+   "n": 2430,
+   "ll_elo": 0.685007,
+   "ll_fund": 0.676353
+  },
+  "2018": {
+   "n": 2431,
+   "ll_elo": 0.674754,
+   "ll_fund": 0.670557
+  },
+  "2019": {
+   "n": 2429,
+   "ll_elo": 0.668464,
+   "ll_fund": 0.666816
+  },
+  "2020": {
+   "n": 898,
+   "ll_elo": 0.682883,
+   "ll_fund": 0.676204
+  },
+  "2021": {
+   "n": 2429,
+   "ll_elo": 0.673279,
+   "ll_fund": 0.67152,
+   "n_mkt": 1370,
+   "ll_open": 0.667313,
+   "ll_close": 0.666998,
+   "ll_fund_mkt": 0.666394,
+   "ll_stack_open": 0.667292,
+   "ll_stack_close": 0.66735
+  },
+  "2022": {
+   "n": 2430,
+   "ll_elo": 0.674845,
+   "ll_fund": 0.669578,
+   "n_mkt": 2342,
+   "ll_open": 0.667151,
+   "ll_close": 0.666897,
+   "ll_fund_mkt": 0.670363,
+   "ll_stack_open": 0.668077,
+   "ll_stack_close": 0.667906
+  },
+  "2023": {
+   "n": 2430,
+   "ll_elo": 0.682521,
+   "ll_fund": 0.677834,
+   "n_mkt": 2381,
+   "ll_open": 0.67717,
+   "ll_close": 0.676728,
+   "ll_fund_mkt": 0.678378,
+   "ll_stack_open": 0.677479,
+   "ll_stack_close": 0.676955
+  },
+  "2024": {
+   "n": 2429,
+   "ll_elo": 0.683311,
+   "ll_fund": 0.676464,
+   "n_mkt": 2382,
+   "ll_open": 0.675445,
+   "ll_close": 0.674198,
+   "ll_fund_mkt": 0.676267,
+   "ll_stack_open": 0.675386,
+   "ll_stack_close": 0.674372
+  },
+  "2025": {
+   "n": 2430,
+   "ll_elo": 0.681752,
+   "ll_fund": 0.678453,
+   "n_mkt": 1687,
+   "ll_open": 0.678586,
+   "ll_close": 0.677357,
+   "ll_fund_mkt": 0.677569,
+   "ll_stack_open": 0.677945,
+   "ll_stack_close": 0.67728
+  }
+ },
+ "DEV": {
+  "games": 10616,
+  "ll_fund": 0.671841,
+  "games_mkt": 6093,
+  "ll_stack_open_minus_open": 0.000472,
+  "ll_stack_close_minus_close": 0.000556,
+  "ci_stack_open_minus_open": [
+   -0.00021907546450584543,
+   0.0011715936122133703
+  ],
+  "ci_stack_close_minus_close": [
+   -5.3132605166747964e-05,
+   0.0011464582325648248
+  ],
+  "bets_open": {
+   "bets": 685,
+   "mean_ev_claimed": 0.0524,
+   "roi": -0.0122,
+   "roi_ci95": [
+    -0.0934,
+    0.0678
+   ],
+   "mean_clv_vs_clean_close": 0.0097,
+   "share_clv_positive": 0.5431
+  },
+  "bets_close": {
+   "bets": 843,
+   "mean_ev_claimed": 0.0688,
+   "roi": 0.0868,
+   "roi_ci95": [
+    0.0049,
+    0.1648
+   ]
+  }
+ },
+ "VALID": {
+  "games": 2429,
+  "ll_fund": 0.676464,
+  "games_mkt": 2382,
+  "ll_stack_open_minus_open": -6e-05,
+  "ll_stack_close_minus_close": 0.000173,
+  "ci_stack_open_minus_open": [
+   -0.0006941312816129236,
+   0.0006098952569468975
+  ],
+  "ci_stack_close_minus_close": [
+   -0.00022576289840827774,
+   0.0006323422968087023
+  ],
+  "bets_open": {
+   "bets": 21,
+   "mean_ev_claimed": 0.0389,
+   "roi": -0.4519,
+   "roi_ci95": [
+    -0.9045,
+    0.0326
+   ],
+   "mean_clv_vs_clean_close": 0.0618,
+   "share_clv_positive": 0.8571
+  },
+  "bets_close": {
+   "bets": 47,
+   "mean_ev_claimed": 0.0593,
+   "roi": -0.1432,
+   "roi_ci95": [
+    -0.4352,
+    0.1749
+   ]
+  }
+ }
+}

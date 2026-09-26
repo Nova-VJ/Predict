@@ -1,0 +1,32 @@
+{
+  "future_official_fixtures": 28,
+  "teams_captured": 30,
+  "unique_roster_players": 1364,
+  "unique_injured_status_players": 270,
+  "game_linked_roster_rows": 2719,
+  "conflicts": [
+    {
+      "game_pk": 822678,
+      "player_id": 813349,
+      "player_name": "Connelly Early",
+      "team": "WSH",
+      "roster_status": "Injured 60-Day",
+      "probable_observed_at_utc": "2026-09-26T08:27:11+00:00",
+      "roster_received_at_utc": "2026-09-26T08:51:09.179182+00:00"
+    },
+    {
+      "game_pk": 824219,
+      "player_id": 434378,
+      "player_name": "Justin Verlander",
+      "team": "DET",
+      "roster_status": "Injured 60-Day",
+      "probable_observed_at_utc": "2026-09-26T08:27:11+00:00",
+      "roster_received_at_utc": "2026-09-26T08:50:23.109895+00:00"
+    }
+  ],
+  "meaning": "Observed roster status only, not diagnosis, severity, lineup confirmation, or original publication time; no absence means healthy.",
+  "probable_starter_observations": 88,
+  "latest_probable_starters": 44,
+  "nonconflicting_latest_probable_starters": 42,
+  "roster_capture_count": 2
+}

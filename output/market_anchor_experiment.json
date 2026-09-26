@@ -1,0 +1,139 @@
+{
+  "status": "exploratory_archived_opening_timestamp_unknown",
+  "source": "consensus of two-sided per-book no-vig opening probabilities",
+  "training_seasons": [
+    2021,
+    2022
+  ],
+  "tuning_season": 2023,
+  "later_seasons_already_inspected": [
+    2024,
+    2025
+  ],
+  "feature_differences": [
+    "prior_season_win_pct",
+    "win_pct_10",
+    "runs_for_10",
+    "runs_against_10",
+    "rest_days"
+  ],
+  "C_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "chosen_C": {
+    "market_plus_elo": {
+      "C": 0.01,
+      "tuning_log_loss": {
+        "0.01": 0.67735499855783,
+        "0.1": 0.6774861177853135,
+        "1.0": 0.6775167113390194,
+        "10.0": 0.6775199834005284
+      }
+    },
+    "market_plus_elo_and_team_form": {
+      "C": 0.01,
+      "tuning_log_loss": {
+        "0.01": 0.679327154145521,
+        "0.1": 0.6797864486633574,
+        "1.0": 0.679901670568211,
+        "10.0": 0.6799144636297517
+      }
+    }
+  },
+  "scores": {
+    "2023": {
+      "archive_market": {
+        "games": 2381,
+        "brier": 0.24215896520670824,
+        "log_loss": 0.6771697337497137
+      },
+      "elo": {
+        "games": 2381,
+        "brier": 0.2450614329787961,
+        "log_loss": 0.6832530261865628
+      },
+      "market_plus_elo": {
+        "games": 2381,
+        "brier": 0.24225470230808177,
+        "log_loss": 0.67735499855783,
+        "paired_logloss_minus_market_95pct_day_bootstrap": [
+          -0.000846323511641818,
+          0.0012582006438926826
+        ]
+      },
+      "market_plus_elo_and_team_form": {
+        "games": 2381,
+        "brier": 0.24322287084148095,
+        "log_loss": 0.679327154145521,
+        "paired_logloss_minus_market_95pct_day_bootstrap": [
+          0.0004565078592015324,
+          0.0038007666062111114
+        ]
+      }
+    },
+    "2024": {
+      "archive_market": {
+        "games": 2382,
+        "brier": 0.24128262768500078,
+        "log_loss": 0.6754452210159101
+      },
+      "elo": {
+        "games": 2382,
+        "brier": 0.24512359162850564,
+        "log_loss": 0.6833032303882732
+      },
+      "market_plus_elo": {
+        "games": 2382,
+        "brier": 0.2414872694226265,
+        "log_loss": 0.675857698488678,
+        "paired_logloss_minus_market_95pct_day_bootstrap": [
+          -0.00024356599105294176,
+          0.0011342131505855176
+        ]
+      },
+      "market_plus_elo_and_team_form": {
+        "games": 2382,
+        "brier": 0.24178755102871743,
+        "log_loss": 0.6764286671994773,
+        "paired_logloss_minus_market_95pct_day_bootstrap": [
+          -9.895211825751725e-05,
+          0.0020966620181728617
+        ]
+      }
+    },
+    "2025": {
+      "archive_market": {
+        "games": 1688,
+        "brier": 0.2428772905427976,
+        "log_loss": 0.6783825724310809
+      },
+      "elo": {
+        "games": 1688,
+        "brier": 0.24304045914427316,
+        "log_loss": 0.6788278527274508
+      },
+      "market_plus_elo": {
+        "games": 1688,
+        "brier": 0.24248701449771426,
+        "log_loss": 0.6776139846170298,
+        "paired_logloss_minus_market_95pct_day_bootstrap": [
+          -0.0013477172689515095,
+          -0.00015906268742713975
+        ]
+      },
+      "market_plus_elo_and_team_form": {
+        "games": 1688,
+        "brier": 0.24240337871848305,
+        "log_loss": 0.677423261398247,
+        "paired_logloss_minus_market_95pct_day_bootstrap": [
+          -0.002099869470456472,
+          0.00011050393296777536
+        ]
+      }
+    }
+  },
+  "warning": "Opening quote observation times unknown. No ROI/CLV or verified T-3h feature claim."
+}

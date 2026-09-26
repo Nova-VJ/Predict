@@ -1,0 +1,11 @@
+{
+  "snapshots_scanned": 26,
+  "coverage": {
+    "with_fresh_two_sided_pinnacle": 14,
+    "without_fresh_two_sided_pinnacle": 12
+  },
+  "positive_market_reference_comparisons": 5,
+  "maximum_indicative_edge": 0.0233893422947673,
+  "limitations": "Same-response market comparison only; no executable price, jurisdiction, limit, or superior predictive model established.",
+  "scope": "observed_live_quotes"
+}

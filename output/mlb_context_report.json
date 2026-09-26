@@ -1,0 +1,17 @@
+{
+  "latest_import_file": "mlb_context_20260926T092620997449Z.json",
+  "latest_import": {
+    "lineups_missing": 56,
+    "pitcher_forms": 44,
+    "bullpen_complete": 56
+  },
+  "coverage": {
+    "game_sides": 56,
+    "pitcher_histories": 44,
+    "clear_probable_starters": 42,
+    "bullpen_complete": 56,
+    "announced_lineups": 0,
+    "long_rest_review": 3
+  },
+  "interpretation": "Observed features only; no trained benefit or betting ROI established."
+}

@@ -1,0 +1,261 @@
+{
+  "created_at_utc": "2026-09-26T09:44:13.210819+00:00",
+  "schedule_snapshot_file": "mlb_schedule_2026_asof_20260926T085801Z.json",
+  "board_requests": [
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard?dates=20260926",
+      "requested_at_utc": "2026-09-26T09:43:43.667491+00:00",
+      "received_at_utc": "2026-09-26T09:43:51.723144+00:00"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard?dates=20260927",
+      "requested_at_utc": "2026-09-26T09:43:51.723182+00:00",
+      "received_at_utc": "2026-09-26T09:43:58.615348+00:00"
+    }
+  ],
+  "summary_requests": [
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401817091",
+      "requested_at_utc": "2026-09-26T09:43:58.618128+00:00",
+      "received_at_utc": "2026-09-26T09:44:06.551851+00:00"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401817103",
+      "requested_at_utc": "2026-09-26T09:43:58.618854+00:00",
+      "received_at_utc": "2026-09-26T09:44:06.299916+00:00"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401817097",
+      "requested_at_utc": "2026-09-26T09:43:58.620077+00:00",
+      "received_at_utc": "2026-09-26T09:44:06.566434+00:00"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401817087",
+      "requested_at_utc": "2026-09-26T09:44:06.299970+00:00",
+      "received_at_utc": "2026-09-26T09:44:12.935783+00:00"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401817092",
+      "requested_at_utc": "2026-09-26T09:44:06.551974+00:00",
+      "received_at_utc": "2026-09-26T09:44:13.209492+00:00"
+    }
+  ],
+  "alerts": [
+    {
+      "mlb_game_pk": 822678,
+      "side": "home",
+      "team": "WSH",
+      "mlb_probable_pitcher_id": 813349,
+      "mlb_probable_name": "Connelly Early",
+      "days_since_last_start": 88,
+      "review_reason": "roster_conflict",
+      "espn_event_id": "401817091",
+      "espn_probable_name": "Connelly Early",
+      "espn_probable_matches": true,
+      "espn_injury_status_for_probable": "60-Day-IL",
+      "team_injuries": [
+        {
+          "name": "Orlando Ribalta",
+          "status": "15-Day-IL",
+          "listed_at_utc": "2026-09-09T00:51Z"
+        },
+        {
+          "name": "PJ Poulin",
+          "status": "60-Day-IL",
+          "listed_at_utc": "2026-08-02T23:18Z"
+        },
+        {
+          "name": "Connelly Early",
+          "status": "60-Day-IL",
+          "listed_at_utc": "2026-09-25T20:51Z"
+        },
+        {
+          "name": "Matt Waldron",
+          "status": "60-Day-IL",
+          "listed_at_utc": "2026-09-12T19:36Z"
+        },
+        {
+          "name": "Drew Millas",
+          "status": "60-Day-IL",
+          "listed_at_utc": "2026-09-10T15:12Z"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401817091",
+      "received_at_utc": "2026-09-26T09:44:06.551851+00:00",
+      "scheduled_start_utc": "2026-09-26T16:35:00Z"
+    },
+    {
+      "mlb_game_pk": 823490,
+      "side": "home",
+      "team": "NYY",
+      "mlb_probable_pitcher_id": 695684,
+      "mlb_probable_name": "Elmer Rodríguez",
+      "days_since_last_start": 27,
+      "review_reason": "long_rest",
+      "espn_event_id": "401817103",
+      "espn_probable_name": "Elmer Rodriguez",
+      "espn_probable_matches": true,
+      "espn_injury_status_for_probable": null,
+      "team_injuries": [
+        {
+          "name": "Ryan Weathers",
+          "status": "15-Day-IL",
+          "listed_at_utc": "2026-09-25T16:59Z"
+        },
+        {
+          "name": "Trent Grisham",
+          "status": "10-Day-IL",
+          "listed_at_utc": "2026-09-24T06:06Z"
+        },
+        {
+          "name": "Aaron Judge",
+          "status": "10-Day-IL",
+          "listed_at_utc": "2026-09-23T23:16Z"
+        },
+        {
+          "name": "Giancarlo Stanton",
+          "status": "60-Day-IL",
+          "listed_at_utc": "2026-09-23T20:54Z"
+        },
+        {
+          "name": "Clarke Schmidt",
+          "status": "15-Day-IL",
+          "listed_at_utc": "2026-09-24T19:38Z"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401817103",
+      "received_at_utc": "2026-09-26T09:44:06.299916+00:00",
+      "scheduled_start_utc": "2026-09-27T19:20:00Z"
+    },
+    {
+      "mlb_game_pk": 823653,
+      "side": "away",
+      "team": "TEX",
+      "mlb_probable_pitcher_id": 543135,
+      "mlb_probable_name": "Nathan Eovaldi",
+      "days_since_last_start": 50,
+      "review_reason": "long_rest",
+      "espn_event_id": "401817097",
+      "espn_probable_name": "Nathan Eovaldi",
+      "espn_probable_matches": true,
+      "espn_injury_status_for_probable": null,
+      "team_injuries": [
+        {
+          "name": "Kyle Higashioka",
+          "status": "10-Day-IL",
+          "listed_at_utc": "2026-09-05T14:27Z"
+        },
+        {
+          "name": "Carter Baumler",
+          "status": "60-Day-IL",
+          "listed_at_utc": "2026-08-31T12:58Z"
+        },
+        {
+          "name": "Jose Corniell",
+          "status": "60-Day-IL",
+          "listed_at_utc": "2026-07-30T01:57Z"
+        },
+        {
+          "name": "Joc Pederson",
+          "status": "10-Day-IL",
+          "listed_at_utc": "2026-09-25T22:02Z"
+        },
+        {
+          "name": "Jack Leiter",
+          "status": "60-Day-IL",
+          "listed_at_utc": "2026-09-22T14:07Z"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401817097",
+      "received_at_utc": "2026-09-26T09:44:06.566434+00:00",
+      "scheduled_start_utc": "2026-09-26T20:10:00Z"
+    },
+    {
+      "mlb_game_pk": 823813,
+      "side": "away",
+      "team": "ATL",
+      "mlb_probable_pitcher_id": 608718,
+      "mlb_probable_name": "Brent Suter",
+      "days_since_last_start": 56,
+      "review_reason": "long_rest",
+      "espn_event_id": "401817087",
+      "espn_probable_name": "Brent Suter",
+      "espn_probable_matches": true,
+      "espn_injury_status_for_probable": null,
+      "team_injuries": [
+        {
+          "name": "Joe Jimenez",
+          "status": "60-Day-IL",
+          "listed_at_utc": "2026-09-15T14:39Z"
+        },
+        {
+          "name": "Reynaldo Lopez",
+          "status": "15-Day-IL",
+          "listed_at_utc": "2026-09-15T14:40Z"
+        },
+        {
+          "name": "Bryce Elder",
+          "status": "15-Day-IL",
+          "listed_at_utc": "2026-09-09T15:38Z"
+        },
+        {
+          "name": "Lane Thomas",
+          "status": "10-Day-IL",
+          "listed_at_utc": "2026-09-22T19:58Z"
+        },
+        {
+          "name": "Martin Perez",
+          "status": "15-Day-IL",
+          "listed_at_utc": "2026-09-24T21:11Z"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401817087",
+      "received_at_utc": "2026-09-26T09:44:12.935783+00:00",
+      "scheduled_start_utc": "2026-09-26T20:10:00Z"
+    },
+    {
+      "mlb_game_pk": 824219,
+      "side": "home",
+      "team": "DET",
+      "mlb_probable_pitcher_id": 434378,
+      "mlb_probable_name": "Justin Verlander",
+      "days_since_last_start": 180,
+      "review_reason": "roster_conflict",
+      "espn_event_id": "401817092",
+      "espn_probable_name": "Justin Verlander",
+      "espn_probable_matches": true,
+      "espn_injury_status_for_probable": "60-Day-IL",
+      "team_injuries": [
+        {
+          "name": "Jack Flaherty",
+          "status": "15-Day-IL",
+          "listed_at_utc": "2026-09-22T20:15Z"
+        },
+        {
+          "name": "Justin Verlander",
+          "status": "60-Day-IL",
+          "listed_at_utc": "2026-09-21T17:57Z"
+        },
+        {
+          "name": "Kyle Finnegan",
+          "status": "15-Day-IL",
+          "listed_at_utc": "2026-09-17T23:04Z"
+        },
+        {
+          "name": "Burch Smith",
+          "status": "60-Day-IL",
+          "listed_at_utc": "2026-09-25T17:26Z"
+        },
+        {
+          "name": "Parker Meadows",
+          "status": "60-Day-IL",
+          "listed_at_utc": "2026-09-25T17:20Z"
+        }
+      ],
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/summary?event=401817092",
+      "received_at_utc": "2026-09-26T09:44:13.209492+00:00",
+      "scheduled_start_utc": "2026-09-26T17:10:00Z"
+    }
+  ],
+  "disclaimer": "ESPN is a secondary, undocumented cross-check; null injury does not confirm health."
+}

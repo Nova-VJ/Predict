@@ -1,0 +1,5 @@
+{"e10_model_in_us_market": {"games": 318, "ll": {"fund": 0.69535, "pinnacle_close": 0.69282, "us_anchor_t3h": 0.69315, "stack": 0.693}, "bets": 11, "mean_clv": -0.0034, "clv_ci95": [-0.0276, 0.0147], "verdict": "fails"},
+ "e11_soft_us_book_lagging_pinnacle": {"games": 159, "bets": 26, "by_book": {"draftkings": 18, "fanduel": 8}, "mean_clv": 0.0189, "clv_ci95": [0.0075, 0.0308], "share_pos": 0.731, "roi": 0.434, "median_hours_before": 5, "window_minutes": {"median": 2, "p75": 4}, "verdict": "passes, preliminary"},
+ "e12_latency": {"0": [26, 0.0189], "1": [21, 0.0128], "2": [17, 0.0138], "5": [13, 0.0141], "10": [12, 0.0121]},
+ "requests_used_oddspapi_today_approx": 520,
+ "raw_storage": "localStorage (origin api.oddspapi.io): mlb_e9, mlb_x2"}

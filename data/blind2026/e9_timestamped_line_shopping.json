@@ -1,0 +1,7 @@
+{"experiment": 9, "run_utc": "2026-09-26T13:25Z", "fixtures": 162, "usable_all_three_books": 97,
+ "coverage": {"draftkings": 162, "fanduel": 161, "circasports": 98},
+ "first_to_open_when_all_three": {"draftkings": 84, "fanduel": 7, "circasports": 6},
+ "bets": 15, "by_book": {"circasports": 12, "fanduel": 3, "draftkings": 0},
+ "mean_ev": 0.0251, "mean_clv_vs_pinnacle_close": 0.0166, "clv_ci95": [0.0021, 0.0315], "share_clv_positive": 0.667,
+ "roi": -0.151, "median_hours_before_start": 1.2,
+ "raw_storage": "localStorage of the user's Claude desktop browser (origin api.oddspapi.io): mlb_e9"}

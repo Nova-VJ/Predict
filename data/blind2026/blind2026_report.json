@@ -1,0 +1,9 @@
+{"experiment": 3, "run_utc": "2026-09-26T12:35Z", "source_odds": "OddsPapi historical-odds (pinnacle, leovegas.es, bwin.es), 162 fixtures, 171 requests",
+ "games_evaluated": 161, "unmatched": 1,
+ "log_loss": {"elo": 0.69931, "fund_prev_lineup": 0.68278, "fund_actual_lineup": 0.68606, "stack_on_pinnacle_t3h": 0.68387, "pinnacle_t3h": 0.68573, "pinnacle_close": 0.68326},
+ "stack_minus_pinnacle_t3h_ci95": [-0.0052, 0.0015], "fund_minus_pinnacle_t3h": -0.00296,
+ "model_bets": {"n": 3, "mean_ev": 0.0334, "mean_clv": 0.011, "clv_ci95": [-0.0047, 0.0408], "roi": 1.5333},
+ "control_bets": {"n": 1, "mean_clv": -0.0148, "roi": -1.0},
+ "descriptive": {"overround_t3h": {"pinnacle": 0.0203, "bwin.es": 0.045, "leovegas.es": 0.1212},
+                 "best_spanish_ev_under_stack": {"gt0": 13, "gt1pct": 8, "gt2pct": 4, "median": -0.0259}},
+ "raw_storage": "localStorage of the user's Claude desktop browser (origin api.oddspapi.io): mlb_bf_2026, mlb_blind2026_rows, mlb_blind2026_feat"}

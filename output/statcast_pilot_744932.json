@@ -1,0 +1,17 @@
+{
+  "game_pk": 744932,
+  "official_date": "2024-06-01",
+  "selected_by": "lowest regular-season MLB game_pk for date",
+  "pitch_rows": 272,
+  "unique_pitch_keys": 272,
+  "csv_bytes": 190930,
+  "sha256": "b3dadd77af5a682eef5014d9a342e0dfbbc579bc5aec2c91ae3bbe8fc6b2b800",
+  "schedule_url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2024-06-01",
+  "schedule_requested_utc": "2026-09-26T09:45:55.844389+00:00",
+  "schedule_received_utc": "2026-09-26T09:46:03.961248+00:00",
+  "statcast_url": "https://baseballsavant.mlb.com/statcast_search/csv?all=true&type=details&game_pk=744932",
+  "statcast_requested_utc": "2026-09-26T09:46:03.962058+00:00",
+  "statcast_received_utc": "2026-09-26T09:46:10.596515+00:00",
+  "cached": false,
+  "note": "Retrospective schema pilot only; it does not establish an available 2024 betting quote."
+}

@@ -1,0 +1,13 @@
+.env
+__pycache__/
+raw/
+output/*.sqlite
+output/sim_inputs.npz
+*.zip
+.venv/
+# Third-party odds data is not redistributed in a public repository
+capturas/mlb_odds_dataset.json
+capturas/parlay_live/
+data/live/*/odds_*
+data/app/
+data/oddspapi/

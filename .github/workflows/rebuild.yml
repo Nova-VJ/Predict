@@ -1,0 +1,39 @@
+name: rebuild-and-evaluate
+
+# Manual: rebuilds the whole research base from free public sources and runs
+# the tests and the daily walk-forward backtest. Results are uploaded as a
+# workflow artifact (the SQLite base is not committed).
+on:
+  workflow_dispatch: {}
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy pandas scikit-learn scipy
+      - name: Download free sources (Retrosheet, retrosplits, odds archive, biofile)
+        run: python fetch_sources.py
+      - name: Build base and features
+        run: |
+          python build_dataset.py
+          python evaluate_models.py
+          python build_player_features.py
+          python build_platoon_features.py
+      - name: Tests
+        run: |
+          python tests.py
+          python tests_v2.py
+          python tests_market.py
+      - name: Walk-forward backtest (reference)
+        run: python backtest_engine.py --name baseline
+      - uses: actions/upload-artifact@v4
+        with:
+          name: outputs
+          path: |
+            output/*.json
+            output/backtests/*.json

@@ -1,0 +1,9 @@
+{"version": "v2.0-frozen-2026-09-26", "trained_on": "fundamentals 2015-2025 (player_features + Elo K=10 home=25); stack on 2021-2025 archived opening consensus",
+ "feat": ["elo_logit", "diff_sp_fip", "diff_sp_k", "diff_sp_bb", "diff_sp_outs", "diff_bp_fip", "diff_bp_pitches_3d", "diff_lineup_woba"],
+ "mean": [0.14351633, 0.00036302, 1.696e-05, 7.328e-05, -0.00613302, 6.576e-05, 4.54163949, 4.048e-05],
+ "scale": [0.38979579, 0.14581306, 0.04048314, 0.01901713, 1.72648108, 0.09475771, 65.66084266, 0.0106497],
+ "coef": [0.15037312, -0.04684038, 0.10070926, -0.03507424, 0.04353419, -0.06323431, -0.00066812, 0.10171736],
+ "intercept": 0.13673428,
+ "stack": {"w_market_logit": 0.69803559, "w_fund_logit": 0.30720113, "intercept": 0.01015971},
+ "league_baselines_2025": {"fip_per_bf": 0.24098, "k": 0.22219, "bbhp": 0.09461, "woba": 0.30925},
+ "decision_rule": "paper bet 1u if p*price-1 > 0.02 at Spain-licensed book"}

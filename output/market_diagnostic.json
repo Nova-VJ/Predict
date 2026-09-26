@@ -1,0 +1,62 @@
+{
+  "warning": "Archive opening odds are not time verified; this is descriptive only.",
+  "opening_market_reference": {
+    "2023": {
+      "games": 2381,
+      "home_only": {
+        "brier": 0.249636,
+        "log_loss": 0.692421
+      },
+      "elo": {
+        "brier": 0.245061,
+        "log_loss": 0.683253
+      },
+      "logistic": {
+        "brier": 0.246385,
+        "log_loss": 0.685841
+      },
+      "archive_opening_consensus": {
+        "brier": 0.242159,
+        "log_loss": 0.67717
+      }
+    },
+    "2024": {
+      "games": 2382,
+      "home_only": {
+        "brier": 0.249582,
+        "log_loss": 0.692311
+      },
+      "elo": {
+        "brier": 0.245124,
+        "log_loss": 0.683303
+      },
+      "logistic": {
+        "brier": 0.246389,
+        "log_loss": 0.685928
+      },
+      "archive_opening_consensus": {
+        "brier": 0.241283,
+        "log_loss": 0.675445
+      }
+    },
+    "2025": {
+      "games": 1688,
+      "home_only": {
+        "brier": 0.24759,
+        "log_loss": 0.688322
+      },
+      "elo": {
+        "brier": 0.24304,
+        "log_loss": 0.678828
+      },
+      "logistic": {
+        "brier": 0.245506,
+        "log_loss": 0.683994
+      },
+      "archive_opening_consensus": {
+        "brier": 0.242877,
+        "log_loss": 0.678383
+      }
+    }
+  }
+}
