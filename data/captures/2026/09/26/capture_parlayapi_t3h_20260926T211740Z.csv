@@ -1,0 +1,33 @@
+# observed_request_utc=2026-09-26T21:17:37.827584+00:00 received_utc=2026-09-26T21:17:40.339462+00:00 source=parlayapi window=t3h
+event_id,commence_utc,home,away,book,last_update,home_price,away_price
+b4753a186b8a27dd484e76fe7652b994,2026-09-26T23:10:00Z,Chicago White Sox,Colorado Rockies,pinnacle,2026-09-26T21:17:25Z,1.42,3.14
+b4753a186b8a27dd484e76fe7652b994,2026-09-26T23:10:00Z,Chicago White Sox,Colorado Rockies,pmu,2026-09-26T21:09:59Z,1.36,2.75
+b4753a186b8a27dd484e76fe7652b994,2026-09-26T23:10:00Z,Chicago White Sox,Colorado Rockies,unibet,2026-09-26T21:16:44Z,1.417,2.85
+b4753a186b8a27dd484e76fe7652b994,2026-09-26T23:10:00Z,Chicago White Sox,Colorado Rockies,bet365,2026-09-26T21:17:34Z,1.385,3.1
+9eb95a606425a1bf88ac658266061051,2026-09-26T23:10:00Z,Kansas City Royals,Cleveland Guardians,pinnacle,2026-09-26T21:17:25Z,1.98,1.943
+9eb95a606425a1bf88ac658266061051,2026-09-26T23:10:00Z,Kansas City Royals,Cleveland Guardians,pmu,2026-09-26T21:09:59Z,1.877,1.758
+9eb95a606425a1bf88ac658266061051,2026-09-26T23:10:00Z,Kansas City Royals,Cleveland Guardians,unibet,2026-09-26T21:16:44Z,1.952,1.833
+9eb95a606425a1bf88ac658266061051,2026-09-26T23:10:00Z,Kansas City Royals,Cleveland Guardians,bet365,2026-09-26T21:17:34Z,1.952,1.87
+e423548fadc0ba4d87ad4904d0b7549f,2026-09-26T23:10:00Z,Milwaukee Brewers,St. Louis Cardinals,pinnacle,2026-09-26T21:17:25Z,1.662,2.39
+e423548fadc0ba4d87ad4904d0b7549f,2026-09-26T23:10:00Z,Milwaukee Brewers,St. Louis Cardinals,pmu,2026-09-26T21:09:59Z,1.571,2.15
+e423548fadc0ba4d87ad4904d0b7549f,2026-09-26T23:10:00Z,Milwaukee Brewers,St. Louis Cardinals,unibet,2026-09-26T21:16:44Z,1.629,2.28
+e423548fadc0ba4d87ad4904d0b7549f,2026-09-26T23:10:00Z,Milwaukee Brewers,St. Louis Cardinals,bet365,2026-09-26T21:17:34Z,1.625,2.35
+39af7d8861055bcf2e496d59b8cdeaaf,2026-09-26T22:10:00Z,Minnesota Twins,Texas Rangers,pinnacle,2026-09-26T21:17:25Z,2.13,1.82
+39af7d8861055bcf2e496d59b8cdeaaf,2026-09-26T22:10:00Z,Minnesota Twins,Texas Rangers,pmu,2026-09-26T21:09:59Z,1.935,1.709
+39af7d8861055bcf2e496d59b8cdeaaf,2026-09-26T22:10:00Z,Minnesota Twins,Texas Rangers,unibet,2026-09-26T21:16:44Z,2.02,1.787
+7e085e06a3f6578345feebbe6c5179e9,2026-09-26T23:15:00Z,Philadelphia Phillies,Tampa Bay Rays,pinnacle,2026-09-26T21:17:25Z,1.847,2.09
+7e085e06a3f6578345feebbe6c5179e9,2026-09-26T23:15:00Z,Philadelphia Phillies,Tampa Bay Rays,pmu,2026-09-26T21:09:59Z,1.746,1.893
+7e085e06a3f6578345feebbe6c5179e9,2026-09-26T23:15:00Z,Philadelphia Phillies,Tampa Bay Rays,unibet,2026-09-26T21:16:44Z,1.826,1.971
+7e085e06a3f6578345feebbe6c5179e9,2026-09-26T23:15:00Z,Philadelphia Phillies,Tampa Bay Rays,bet365,2026-09-26T21:17:23Z,1.8,2.05
+5b4cb81b6eba5ead26f3fc2e5f98b4ae,2026-09-27T01:40:00Z,Oakland Athletics,Houston Astros,pinnacle,2026-09-26T21:17:25Z,2.46,1.629
+5b4cb81b6eba5ead26f3fc2e5f98b4ae,2026-09-27T01:40:00Z,Oakland Athletics,Houston Astros,pmu,2026-09-26T21:09:59Z,2.15,1.571
+5b4cb81b6eba5ead26f3fc2e5f98b4ae,2026-09-27T01:40:00Z,Oakland Athletics,Houston Astros,unibet,2026-09-26T21:16:44Z,2.23,1.645
+5b4cb81b6eba5ead26f3fc2e5f98b4ae,2026-09-27T01:40:00Z,Oakland Athletics,Houston Astros,bet365,2026-09-26T21:17:34Z,2.35,1.625
+4db69ac9b987e1f006f8418b77c66a21,2026-09-27T00:40:00Z,San Diego Padres,Arizona Diamondbacks,pinnacle,2026-09-26T21:17:25Z,1.8,2.15
+4db69ac9b987e1f006f8418b77c66a21,2026-09-27T00:40:00Z,San Diego Padres,Arizona Diamondbacks,pmu,2026-09-26T21:09:59Z,1.746,1.893
+4db69ac9b987e1f006f8418b77c66a21,2026-09-27T00:40:00Z,San Diego Padres,Arizona Diamondbacks,unibet,2026-09-26T21:16:44Z,1.826,1.971
+4db69ac9b987e1f006f8418b77c66a21,2026-09-27T00:40:00Z,San Diego Padres,Arizona Diamondbacks,bet365,2026-09-26T21:17:34Z,1.769,2.1
+78c27c4c3a5e4c4f4e5ff70dfaf18e76,2026-09-27T01:40:00Z,Seattle Mariners,Los Angeles Angels,pinnacle,2026-09-26T21:17:25Z,1.658,2.39
+78c27c4c3a5e4c4f4e5ff70dfaf18e76,2026-09-27T01:40:00Z,Seattle Mariners,Los Angeles Angels,pmu,2026-09-26T21:09:59Z,1.538,2.23
+78c27c4c3a5e4c4f4e5ff70dfaf18e76,2026-09-27T01:40:00Z,Seattle Mariners,Los Angeles Angels,unibet,2026-09-26T21:16:44Z,1.606,2.32
+78c27c4c3a5e4c4f4e5ff70dfaf18e76,2026-09-27T01:40:00Z,Seattle Mariners,Los Angeles Angels,bet365,2026-09-26T21:17:23Z,1.625,2.35
