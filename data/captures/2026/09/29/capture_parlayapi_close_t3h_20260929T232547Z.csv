@@ -1,0 +1,14 @@
+# observed_request_utc=2026-09-29T23:25:45.989045+00:00 received_utc=2026-09-29T23:25:47.579446+00:00 source=parlayapi window=close_t3h
+event_id,commence_utc,home,away,book,last_update,home_price,away_price
+d9743ed5b46b45d0828bc7998443e507,2026-09-30T18:00:00Z,Atlanta Braves,Philadelphia Phillies,pinnacle,2026-09-29T23:25:43Z,2.01,1.901
+d9743ed5b46b45d0828bc7998443e507,2026-09-30T18:00:00Z,Atlanta Braves,Philadelphia Phillies,pmu,2026-09-29T23:25:19Z,1.826,1.699
+d9743ed5b46b45d0828bc7998443e507,2026-09-30T18:00:00Z,Atlanta Braves,Philadelphia Phillies,unibet,2026-09-29T23:25:19Z,1.962,1.826
+d9743ed5b46b45d0828bc7998443e507,2026-09-30T18:00:00Z,Atlanta Braves,Philadelphia Phillies,bet365,2026-09-29T23:25:45Z,1.952,1.87
+de91289e082c642c355abe833bd21783,2026-09-30T00:00:00Z,New York Yankees,Boston Red Sox,pinnacle,2026-09-29T23:25:43Z,1.794,2.16
+de91289e082c642c355abe833bd21783,2026-09-30T00:00:00Z,New York Yankees,Boston Red Sox,pmu,2026-09-29T23:25:19Z,1.606,1.943
+de91289e082c642c355abe833bd21783,2026-09-30T00:00:00Z,New York Yankees,Boston Red Sox,unibet,2026-09-29T23:25:19Z,1.73,2.1
+de91289e082c642c355abe833bd21783,2026-09-30T00:00:00Z,New York Yankees,Boston Red Sox,bet365,2026-09-29T23:25:45Z,1.741,2.15
+bc6fb85402286138e4d66f50ecf27b01,2026-09-30T02:00:00Z,San Diego Padres,Chicago Cubs,pinnacle,2026-09-29T23:25:43Z,1.758,2.22
+bc6fb85402286138e4d66f50ecf27b01,2026-09-30T02:00:00Z,San Diego Padres,Chicago Cubs,pmu,2026-09-29T23:25:19Z,1.606,1.935
+bc6fb85402286138e4d66f50ecf27b01,2026-09-30T02:00:00Z,San Diego Padres,Chicago Cubs,unibet,2026-09-29T23:25:19Z,1.73,2.1
+bc6fb85402286138e4d66f50ecf27b01,2026-09-30T02:00:00Z,San Diego Padres,Chicago Cubs,bet365,2026-09-29T23:25:45Z,1.769,2.1
