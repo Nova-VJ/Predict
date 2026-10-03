@@ -1,0 +1,12 @@
+# observed_request_utc=2026-10-03T21:43:33.716544+00:00 received_utc=2026-10-03T21:43:34.406255+00:00 source=parlayapi window=t3h
+event_id,commence_utc,home,away,book,last_update,home_price,away_price
+a6c9fb4d654ae0d822e255fa40604f95,2026-10-03T22:30:00Z,Tampa Bay Rays,New York Yankees,pinnacle,2026-10-03T21:43:32Z,1.763,2.21
+a6c9fb4d654ae0d822e255fa40604f95,2026-10-03T22:30:00Z,Tampa Bay Rays,New York Yankees,pmu,2026-10-03T21:39:13Z,1.538,2.05
+a6c9fb4d654ae0d822e255fa40604f95,2026-10-03T22:30:00Z,Tampa Bay Rays,New York Yankees,unibet,2026-10-03T21:39:13Z,1.658,2.23
+a6c9fb4d654ae0d822e255fa40604f95,2026-10-03T22:30:00Z,Tampa Bay Rays,New York Yankees,bet365,2026-10-03T21:43:26Z,1.714,2.2
+2a70fcbac9bcfb56a5768afda8489d47,2026-10-04T00:30:00Z,Milwaukee Brewers,San Diego Padres,pinnacle,2026-10-03T21:43:32Z,1.513,2.78
+2a70fcbac9bcfb56a5768afda8489d47,2026-10-04T00:30:00Z,Milwaukee Brewers,San Diego Padres,pmu,2026-10-03T21:39:13Z,1.339,2.6
+2a70fcbac9bcfb56a5768afda8489d47,2026-10-04T00:30:00Z,Milwaukee Brewers,San Diego Padres,unibet,2026-10-03T21:39:13Z,1.435,2.8
+2a70fcbac9bcfb56a5768afda8489d47,2026-10-04T00:30:00Z,Milwaukee Brewers,San Diego Padres,bet365,2026-10-03T21:43:26Z,1.476,2.75
+0d2ebf26b2e03d1067b85b2af779eaf0,2026-10-05T21:00:00Z,Cleveland Guardians,Chicago White Sox,pmu,2026-10-03T21:39:13Z,1.513,2.08
+0d2ebf26b2e03d1067b85b2af779eaf0,2026-10-05T21:00:00Z,Cleveland Guardians,Chicago White Sox,unibet,2026-10-03T21:39:13Z,1.637,2.25
