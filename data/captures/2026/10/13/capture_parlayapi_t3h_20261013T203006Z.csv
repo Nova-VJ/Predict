@@ -1,0 +1,6 @@
+# observed_request_utc=2026-10-13T20:30:00.897910+00:00 received_utc=2026-10-13T20:30:06.333295+00:00 source=parlayapi window=t3h
+event_id,commence_utc,home,away,book,last_update,home_price,away_price
+bdf4624cb381845548169f084053214a,2026-10-14T00:00:00Z,Tampa Bay Rays,Cleveland Guardians,pinnacle,2026-10-13T20:29:56Z,1.781,2.18
+bdf4624cb381845548169f084053214a,2026-10-14T00:00:00Z,Tampa Bay Rays,Cleveland Guardians,bet365,2026-10-13T20:30:01Z,1.775,2.09
+4990f8c95b46dc5cc9c7d140763a11e8,2026-10-15T00:00:00Z,Los Angeles Dodgers,Milwaukee Brewers,pinnacle,2026-10-13T20:29:56Z,1.588,2.52
+4990f8c95b46dc5cc9c7d140763a11e8,2026-10-15T00:00:00Z,Los Angeles Dodgers,Milwaukee Brewers,bet365,2026-10-13T20:30:01Z,1.575,2.47
